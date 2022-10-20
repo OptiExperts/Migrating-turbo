@@ -277,9 +277,11 @@
             {% endif %}
 
             {% unless shop.enabled_currencies.size > 1 %}
+            {%- comment -%}  
               <p>
                 <small style="display: none;">{{ 'cart.general.orders_processed_in_currency_html' | t: currency: shop.currency }}</small>
               </p>
+            {%- endcomment -%}
             {% endunless %}
 
             {% if section.settings.display_special_instructions %}
