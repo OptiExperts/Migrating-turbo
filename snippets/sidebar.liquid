@@ -514,7 +514,13 @@
                               {% if block.settings.enable_filter_swatches %}
                                 <li>
                                   <label data-option-filter>
-                                    <input checked type="checkbox" value="{{- tag | replace: filter_name, '' | handleize -}}" name="{{tag | handleize }}" id="{{tag}}" class="styled-checkbox" style="background-image: url({{ tag | replace: filter_name, '' | handleize | downcase | append: '.png' | asset_img_url: '50x' }}); background-color: {{tag | replace: filter_name, '' | downcase }}">
+                                    <input checked 
+                                    type="checkbox" 
+                                    value="{{- tag | replace: filter_name, '' | handleize -}}" 
+                                    name="{{tag | handleize }}" 
+                                    id="{{tag}}" 
+                                    class="styled-checkbox" 
+                                    style="background-image: url({{ tag | replace: filter_name, '' | handleize | downcase | append: '.png' | asset_img_url: '50x' }}); background-color: {{tag | replace: filter_name, '' | downcase }}">
                                     {{tag | replace: filter_name, '' | replace: '_', ' ' }}
                                   </label>
                                 </li>
