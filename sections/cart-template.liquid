@@ -278,7 +278,7 @@
 
             {% unless shop.enabled_currencies.size > 1 %}
               <p>
-                <small>{{ 'cart.general.orders_processed_in_currency_html' | t: currency: shop.currency }}</small>
+                <small style="display: none;">{{ 'cart.general.orders_processed_in_currency_html' | t: currency: shop.currency }}</small>
               </p>
             {% endunless %}
 
