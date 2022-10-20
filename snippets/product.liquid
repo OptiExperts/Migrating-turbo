@@ -282,13 +282,13 @@
             {% when 'custom-liquid' %}
               {{ block.settings.custom_liquid }}
             {% when 'description' %}
-              <div class="description">
+              <div style="margin-top:60px;" class="description">
                 {% if onboarding %}
                   <p>{{ 'homepage.onboarding.product_description' | t }}</p>
                 {% else %}
                   {% if context == 'quickshop' %}
                     {% if product.description != blank %}
-                      <div style="margin-top:60px;" class="rte">
+                      <div class="rte">
                         {% if block.settings.truncate_description %}
                           {{ product.description | truncatewords: block.settings.truncated_words }}
                         {% else %}
