@@ -288,7 +288,7 @@
                 {% else %}
                   {% if context == 'quickshop' %}
                     {% if product.description != blank %}
-                      <div class="rte">
+                      <div style="margin-top:60px;" class="rte">
                         {% if block.settings.truncate_description %}
                           {{ product.description | truncatewords: block.settings.truncated_words }}
                         {% else %}
