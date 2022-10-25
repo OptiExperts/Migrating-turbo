@@ -151,7 +151,7 @@
 
     <a href="{{ routes.root_url }}" title="{{ shop.name | escape }}" class="mobile_logo logo">
       {% if section.settings.logo_mobile != blank %}
-        <img src="{{ section.settings.logo_mobile | img_url: '410x' }}" alt="{{ shop.name | escape }}" class="lazyload" />
+        <img width="100%" height="100%" src="{{ section.settings.logo_mobile | img_url: '410x' }}" alt="{{ shop.name | escape }}" class="lazyload" />
       {% elsif section.settings.logo != blank %}
         <img src="{{ section.settings.logo | img_url: '410x' }}" alt="{{ shop.name | escape }}" />
       {% else %}
