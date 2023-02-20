@@ -44,7 +44,7 @@
         "template--16615719960805__f6d47ab5-ef76-45a0-b42e-c729ec54fd1a-16661841210a467d0a-2": {
           "type": "collection",
           "settings": {
-            "feature_collection": "https-bargainavenue-com-au-collections-lamps",
+            "feature_collection": "lamps",
             "image": "shopify:\/\/shop_images\/6_67672bf6-2131-40ed-a65f-d8b6b93ea3b2.jpg"
           }
         },
@@ -90,7 +90,7 @@
         "template--16615719960805__84f44f7d-c392-41e3-8319-1cc4faf13e47-166618437668f306e9-0": {
           "type": "collection",
           "settings": {
-            "feature_collection": "https-bargainavenue-com-au-collections-mirrors",
+            "feature_collection": "mirrors",
             "image": "shopify:\/\/shop_images\/8_4650c04c-85ba-4e92-9181-491b8d1db27a.jpg"
           }
         },
